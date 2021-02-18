@@ -1,4 +1,4 @@
-import { DatabaseConfig } from '@onivoro/server-database';
+import { DatabaseConfig } from './database.config';
 
 export interface IProvisionOptions extends DatabaseConfig {
     customer: string;
